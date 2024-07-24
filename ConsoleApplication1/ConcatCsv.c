@@ -1,10 +1,12 @@
 #include "ConcatCsv.h"
+
 /// <summary>
 /// 2つのCSV文字列を結合する
 /// </summary>
-/// <param name="csv1">入力1</param>
-/// <param name="csv2">入力2</param>
-/// <param name="csvOut">出力</param>
+/// <param name="csv1">1つ目のCSV文字列の開始アドレス</param>
+/// <param name="csv2">2つ目のCSV文字列の開始アドレス</param>
+/// <param name="csvOut">出力文字列バッファの開始アドレス</param>
+/// <returns>正常に結合できた場合は 0、何らかのエラーで失敗した場合は -1 </returns>
 int ConcatCsv(const char* csv1, const char* csv2, char* csvOut) {
 	// この関数では入力として与えられた2つのCSV文字列を結合して１つのCSVにして返す
 	// 入力1 : csv1
@@ -19,7 +21,7 @@ int ConcatCsv(const char* csv1, const char* csv2, char* csvOut) {
 	// ・カンマで区切られたフィールドは "" で必ず囲まれる
 	// 
 	// 例えば以下の形式はNGである
-	// × 2行ある
+	// × 3行ある
 	// "CPU","Memory","Disk"
 	// "Core i5","16GB","1TB"
 	// "Core i7","8GB","2TB"
