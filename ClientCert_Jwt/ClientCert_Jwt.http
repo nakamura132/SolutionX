@@ -1,0 +1,6 @@
+@ClientCert_Jwt_HostAddress = http://localhost:5083
+
+GET {{ClientCert_Jwt_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
