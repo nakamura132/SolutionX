@@ -21,6 +21,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientCert_Jwt", "ClientCer
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.vcxproj", "{F6FC1C2E-32BB-4581-835D-3FC3ABA495A1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoryMappedFileCsharp1", "MemoryMappedFileCsharp1\MemoryMappedFileCsharp1.csproj", "{A2DACE1F-DF35-4827-A3C0-8EAB254A79FA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MemoryMappedFileCplusplus1", "MemoryMappedFileCplusplus1\MemoryMappedFileCplusplus1.vcxproj", "{CDF47687-EE0A-4819-AE10-CE111CA0963C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
